@@ -138,12 +138,23 @@ section:last-child {
 	padding: 1%;
 }
 
+.title-sectionContent {
+	text-align: justify;
+	margin-bottom: 2% !important;
+	color: #000000;
+    font-weight: bold;
+	font-style: italic;
+	text-decoration: underline #2405cf;     
+}
+
+
 .sectionTitle h1 {
 	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
 	font-style: italic;
 	font-size: 1.5em;
 	color: #0f1c66;
 }
+
 
 
 .sectionContent ul li {
@@ -176,6 +187,7 @@ section:last-child {
 .keySkills ul li {
 	margin-bottom: 3px;
 }
+
 
 @media all and (min-width: 602px) and (max-width: 800px) {
 	#headshot {
